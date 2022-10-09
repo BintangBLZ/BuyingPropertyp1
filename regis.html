@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRegister.css">
+    
+    <title>Registration</title>
+</head>
+<body>
+    <div class="containerLogin">
+        <h2>Create Account</h2>
+        <br>
+        <form id="form" action="index.html" method="get'">
+            <div class="form-control">
+                <label for="name">Name</label>
+                <input id="Name" name="name" type="text">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="Alamat">Alamat</label>
+                <input id="Alamat" name="Alamat" type="text">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="Tanggal">Tanggal Lahir</label>
+                <input id="Tanggal" name="Tanggal" type="date">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="Phone Number">Phone Number</label>
+                <input id="Phone Number" name="Phone Number" type="number">
+                <small>Error Message</small>
+            </div>
+            <div class="signIn">
+                <p>Already Have An Account? <a href="login.html">Login</a> Now</p>
+            </div>
+            <button type="submit" class="button" onclick="openIndexpage()">Register</button>
+        </form>
+    </div>
+    <script src="validation.js"></script>   
+</body>
+</html>

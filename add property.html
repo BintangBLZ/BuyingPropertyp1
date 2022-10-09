@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Property</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul class="header">
+        <li><a href="regis.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>     
+        <li class="property"><a href="javascript:void(0)" class="properties">
+            Property</a>
+            <div class="property-content">
+                <a href="property view.html">Property View</a>
+                <a href="property Delete.html">Property Delete</a>
+                <a href="add property.html">Add Property</a>
+                <a href="property update.html">Update Property</a>
+            </div>
+        </li>
+        <li><a href="index.html">Home</a></li> 
+         
+    </ul>
+
+    <div class="property-delete">
+        <div class="containerLogin">
+            <h2>Add Property</h2>
+            <br>
+            <form action="index.html" id="form" method="get">
+                <div class="form-control">
+                    <label for="name">Nama Property</label>
+                    <input id="Name" name="name" type="text">
+                </div>
+                <div class="form-control">
+                    <label for="Alamat">Alamat Property</label>
+                    <input id="Alamat" name="Alamat" type="text">
+                </div>
+                <div class="form-control">
+                    <label for="name">Deskripsi Proterty</label>
+                    <textarea rows="4" cols="50" name="comment" form="usrform">
+                    
+                    </textarea>
+                </div>
+
+                <button type="submit" class="button" onclick="myfunction()">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h2>All Right Reserved &copy; UTS Web Based Aplication Development 2022</h2>
+    </div>
+
+</body>
+</html>

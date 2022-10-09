@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleRegister.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="containerLogin">
+        <h2>Login</h2>
+        <br>
+        <form action="index.html" id="form" method="get">
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input id="password" name="password" type="password">
+                <small>Error Message</small>
+            </div>
+            <div class="signIn">
+                <p>Didn't Have an account? <a href="regis.html">Register</a> Now </p>
+            </div>
+            <button type="submit" class="button" onclick="openIndexpage()">Login</button>
+        </form>
+
+    </div>
+
+    <script src="validationLogin.js"></script>   
+    
+</body>
+</html>
